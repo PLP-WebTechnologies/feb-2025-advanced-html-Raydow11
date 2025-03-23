@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web page</title>
+        <style>
+            table {
+                width: 100%
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th,td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            th{
+                background-color: #f2f2f2;
+            }
+            </style>
+            </head>
+            <body>
+                <!-- Ordered List with Roman Numeral-->
+                <h2>Ordered List</h2>
+            <ol type="I">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+                <li>Fourth Item</li>
+                <li>Fifth Item</li>
+            </ol>
+
+            <!-- External Image from Pexels-->
+            <h2>Image from Pexels</h2>
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Sample image" width="500">
+
+            <!-- Table of Contacts-->
+             <h2>Contact List</h2>
+             <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Lerato Sakong</td>
+                    <td>123 Love St, CPT</td>
+                    <td>082 123 4567</td>
+                    <td>lera@practice.com</td>
+                </tr>
+                <tr>
+                    <td>Leighann Njoro</td>
+                    <td>456 Hope St, PTA</td>
+                    <td>082 765 4321</td>
+                    <td>Leigh@practice.com</td>
+                </tr>
+                <tr>
+                    <td>Pakang Segabutla</td>
+                    <td>789 Peace St, JHB</td>
+                    <td>082 456 7890</td>
+                    <td>Pakang@practice.com</td>
+                </tr>
+                <tr>
+                    <td>Thembisile Mabiza</td>
+                    <td>1010 Joy St, PLK</td>
+                    <td>082 098 7654</td>
+                    <td>Thembi@practice.com</td>
+                </tr>
+                <tr>
+                    <td>Pheladi Motsepe</td>
+                    <td>1111 Happiness St, DBN</td>
+                    <td>082 654 3210</td>
+                    <td>Pheladi@practice.com</td>
+                </tr>
+            </table>
+
+            <!--Registration Form -->
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+                <label for"dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="gender">Gender: </label><br>
+                <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required> <label for= "female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required> <label for="other">Other</label><br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select><br><br>
+
+                <label>Interests:</label><br>
+                <input type="checkbox" id="sports" name="interests" value="sports">Sports<lable for="sports">Sports</lable>
+                <input type="checkbox" id="music" name="interests" value="music">Music<lable for="music">Music</lable>
+                <input type="checkbox" id="movies" name="interests" value="movies">Movies<lable for="movies">Movies</lable><br><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </body>
+        </html>
